@@ -1,4 +1,6 @@
-[QRCode-Monkey](https://www.qrcode-monkey.com/) offers free basic QR Codes but they also offer transparent QR Codes for a small price through [RapidAPI](https://rapidapi.com/qrcode-monkey/api/custom-qr-code-with-logo).  We opted to spend the ~$20 for 1000 API calls to create our branded QR Codes.  You can find a good summary of all the customization options [here](https://www.qrcode-monkey.com/qr-code-api-with-logo/)
+[QRCode-Monkey](https://www.qrcode-monkey.com/) offers free basic QR Codes but they also offer transparent QR Codes for a small price through [RapidAPI](https://rapidapi.com/qrcode-monkey/api/custom-qr-code-with-logo).  We opted to spend the ~$20 for 1000 API calls to create our branded QR Codes.  You can find a good summary of all the QR Code customization options [here](https://www.qrcode-monkey.com/qr-code-api-with-logo/)
+
+Once you have [registered](https://rapidapi.com/auth/sign-up) with RapidAPI and [Subscribed](https://rapidapi.com/qrcode-monkey/api/custom-qr-code-with-logo/pricing) to QRCode-Monkey, update the `creds.sh` file with your API key.
 
 QR Codes have 3 positioning squares and 1 alignment square that cannot be moved nor obstructed. To assist with optimal logo placement we included `QR_FreeSpaceTemplate.svg`.
 ![](https://raw.githubusercontent.com/Angelbots1339/QR-Code-Logo-Generator/7515d70ad0a63f82d98deffb2615308d0115ec78/QR_FreeSpaceTemplate.svg)
